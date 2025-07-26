@@ -1,0 +1,73 @@
+name: inshorts_movies
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management & Architecture
+  flutter_bloc: ^9.1.1
+  equatable: ^2.0.7
+
+  # Navigation & Deep Links
+  go_router: ^16.0.0
+
+  # Local Storage
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  path_provider: ^2.1.5
+
+  # Network
+  dio: ^5.8.0+1
+  retrofit: ^4.6.0
+  json_annotation: ^4.9.0
+
+  # dependency injection
+  get_it: ^8.0.3
+  injectable: ^2.5.0
+
+  # ui
+  cached_network_image: ^3.4.1
+  youtube_player_flutter: ^9.1.1
+  lottie: ^3.3.1
+  gap: ^3.0.1
+  shimmer: ^3.0.0
+  google_fonts: ^6.2.1
+  fluttertoast: ^8.2.12
+  flutter_svg: ^2.2.0
+
+  # Miscellaneous
+  intl: ^0.20.2
+  connectivity_plus: ^6.1.4
+  url_launcher: ^6.3.2
+  share_plus: ^11.0.0
+  app_links: ^6.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.10
+  retrofit_generator: ^8.1.0
+  json_serializable: ^6.7.1
+  injectable_generator: ^2.6.2
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/lottie/
+    - assets/icons/
+
+  fonts:
+    - family: PlusJakartaSans
+      fonts:
+        - asset: assets/fonts/PlusJakartaSans-Regular.ttf
+        - asset: assets/fonts/PlusJakartaSans-Medium.ttf
+        - asset: assets/fonts/PlusJakartaSans-Bold.ttf
